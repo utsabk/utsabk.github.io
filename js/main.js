@@ -1,13 +1,13 @@
 'use strict';
 
-window.addEventListener('load', () => {
+window.addEventListener('load', async () => {
 
   const ul = document.querySelector('ul');
   const form = document.querySelector('form');
   const message = form.elements.message;
 
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js');
+    await navigator.serviceWorker.register('./sw.js');
 
     const data = [];
 
