@@ -50,3 +50,14 @@ li {
     color: white;
     margin-bottom: 5px;
 }
+
+.greetings {
+    height: 70vh;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    text-align: left;
+}
+
+
+
